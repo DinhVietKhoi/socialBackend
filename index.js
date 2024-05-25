@@ -17,7 +17,7 @@ const app = express();
 dotenv.config();
 app.use(
   cors({
-    origin: "https://frontend-xh75.vercel.app",
+    origin: "*",
     credentials: true,
   })
 );
